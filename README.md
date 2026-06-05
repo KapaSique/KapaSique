@@ -56,10 +56,7 @@ review & integration   → me
 
 ### // stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KapaSique&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&title_color=00e5ff&icon_color=ff2e88&bg_color=0a0a0a">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KapaSique&layout=compact&hide_border=true&theme=tokyonight&title_color=00e5ff&bg_color=0a0a0a&langs_count=8">
-</p>
+![Stats](https://github-readme-stats.vercel.app/api?username=KapaSique&show_icons=true&theme=tokyonight&hide_border=true)
 
 ### // currently
 
