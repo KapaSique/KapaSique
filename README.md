@@ -54,14 +54,6 @@ review & integration   → me
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
 </p>
 
-### // stats
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=KapaSique&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KapaSique&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-![Streak](https://streak-stats.demolab.com?user=KapaSique&theme=tokyonight&hide_border=true)
 
 ### // currently
 
