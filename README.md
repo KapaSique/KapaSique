@@ -1,85 +1,99 @@
-<h1 align="center">Artem Svinoboev · KapaSique</h1>
+<div align="center">
 
-<p align="center">
-  CS student → ML/CV & full-stack engineer.<br>
-  I architect systems and orchestrate AI agents to ship them — fast, but with my hands on the wheel.
-</p>
+```text
++------------------------------------------------------------+
+| KAPASIQUE :: ARTEM SVINOBOEV                               |
+| ML / COMPUTER VISION / FULL-STACK / AGENTIC ENGINEERING    |
++------------------------------------------------------------+
+```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/focus-ML%20%2F%20CV-00e5ff?style=flat-square&labelColor=0a0a0a">
-  <img src="https://img.shields.io/badge/also-full--stack%20%2B%20mobile-ff2e88?style=flat-square&labelColor=0a0a0a">
-  <img src="https://img.shields.io/badge/based-NEFU%20→%20China%20(exchange)-9d4edd?style=flat-square&labelColor=0a0a0a">
-</p>
+**I turn ambitious ideas into systems that work.**
+
+`architecture first` &nbsp; `/`&nbsp; `agents with supervision` &nbsp; `/`&nbsp; `proof over hype`
+
+</div>
 
 ---
 
-### // about
+## 00 / signal
 
-- 3rd-year **Informatics & Computer Engineering** student at NEFU (Yakutsk), grad ~2027.
-- Currently on exchange at **Jiamusi University, China** — learning Mandarin on the ground.
-- Heading toward a **Master's in AI / CS in Shenzhen / Guangzhou**. The neon-and-silicon city stack is the goal, not the backdrop.
-- ~4 years building web; expanding into mobile and computer vision.
+I'm a computer engineering student from Yakutsk, currently studying between
+**NEFU** and **Jiamusi University in China**. My main lane is machine learning and
+computer vision; my unfair advantage is being able to carry the same idea all the
+way from an experiment to a usable product.
 
-### // how I work
-
-I'm not a "write every line by hand" dev and I don't pretend to be. I **design the architecture, write the specs, and direct AI agents** to execute — then I review, integrate, and own the result. The skill isn't typing; it's knowing *what* to build, *how* it fits together, and where the agents are wrong.
+I have spent roughly four years building for the web, then moved deeper into ML,
+CV, mobile, and agent-driven development. The long game is graduate study in
+AI / CS in southern China — and a career built around hard technical problems,
+not one narrow framework.
 
 ```text
-spec & architecture   → me
-heavy lifting / code   → Claude (Opus) via Claude Code
-planning / TZ          → GPT / Codex
-high-volume grind      → DeepSeek (API)
-agentic dev env        → Cursor + Claude Code
-review & integration   → me
+Yakutsk  --->  China  --->  Shenzhen / Guangzhou
+  web          ML/CV          research + products
 ```
 
-### // selected work
+## 01 / operating system
 
-**ML & Kaggle**
-- 🌌 **[stellar-class-prediction-s6e6](https://github.com/KapaSique/stellar-class-prediction-s6e6)** — Kaggle Playground S6E6 (GALAXY/QSO/STAR). LGBM+XGB+CatBoost ensemble + RealMLP blend + own LR-stacker, OOF-validated. **Balanced Accuracy 0.971, public LB ~top 8%.**
-- 🏎️ **[f1-pitstop-prediction-s6e5](https://github.com/KapaSique/f1-pitstop-prediction-s6e5)** — Kaggle Playground S6E5. GBDT + RealMLP blend, OOF-validated. **Private AUC 0.9545 (~top 7%).**
-- 🧩 **[maze-crawler](https://github.com/KapaSique/maze-crawler)** — Kaggle simulation agent. Jump-BFS pure-sprinter strategy, **ELO 1057, #53 / 459 (~top 12%).**
-- 🧠 **[SMILES-2026](https://github.com/KapaSique/SMILES-2026)** — zero-order fine-tuning of ResNet18 on CIFAR100 (SPSA, no backprop): **49.68% top-1 with zero gradient computations** on 8192 samples. Built for the Summer School in Machine Learning.
+I don't measure engineering by how many lines I typed myself. I define the
+architecture, turn ambiguity into a spec, direct AI agents through the heavy
+lifting, and then review the result until I can own every decision.
 
-**AI agents & dev tooling**
-- 🏆 **[kaggle-dominator](https://github.com/KapaSique/kaggle-dominator)** — Claude Code skill that turns the agent into a relentless Kaggle Grandmaster: battle constitution + technique arsenal. ⭐ a few stars from strangers.
-- 🔍 **[trustlens](https://github.com/KapaSique/trustlens)** — multi-agent BI agent (Google ADK + MCP) that verifies every number before it's shown. Kaggle *AI Agents* Capstone, Agents-for-Business track.
-- 🩺 **[second-look-triage](https://github.com/KapaSique/second-look-triage)** — clinically-grounded ER triage safety-net (Triagegeist hackathon): calibrated ESI + red-flag NLP + fairness/missingness audit, live Gradio demo.
+```text
+idea
+  +--> architecture ---------> me
+  +--> specification --------> me + Codex / GPT
+  +--> implementation -------> Claude Code / agents
+  +--> experiments ----------> Python / notebooks / GPUs
+  +--> review + integration --> me
+  +--> evidence -------------> tests / metrics / production
+```
 
-**Computer vision & full-stack**
-- 👁️ **[attention-guard](https://github.com/KapaSique/PaperCV)** — real-time webcam attention & gaze monitor. MediaPipe + OpenCV, FastAPI backend, React dashboard.
-- 🏛️ **[yakutsk-city](https://github.com/KapaSique/yakutsk-city)** — official site for the Yakutsk city IT department. Next.js + React, shipped to production.
-- ♟️ **[checkers-solver](https://github.com/KapaSique/checkers-solver)** — Russian Checkers engine in Go (minimax / alpha-beta) with a React + TypeScript UI.
+Fast is useful. Correct, explainable, and shipped is better.
 
-### // stack
+## 02 / selected transmissions
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
-  <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square">
-  <img src="https://img.shields.io/badge/XGBoost-EB0F00?style=flat-square">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-</p>
+| Project | What happened |
+| :-- | :-- |
+| [`stellar-class-prediction-s6e6`](https://github.com/KapaSique/stellar-class-prediction-s6e6) | LGBM + XGB + CatBoost + RealMLP stacker for stellar classification. **0.9711 balanced accuracy, top ~8%**. |
+| [`f1-pitstop-prediction-s6e5`](https://github.com/KapaSique/f1-pitstop-prediction-s6e5) | OOF-validated GBDT / RealMLP blend. **0.9545 private AUC, top ~7%**. |
+| [`SMILES-2026`](https://github.com/KapaSique/SMILES-2026) | Zero-order ResNet18 fine-tuning on CIFAR-100: **49.68% top-1 with no gradient computation**. |
+| [`kaggle-dominator`](https://github.com/KapaSique/kaggle-dominator) | An open Claude Code skill for disciplined, evidence-driven Kaggle work. |
+| [`trustlens`](https://github.com/KapaSique/trustlens) | Multi-agent BI system that verifies numbers before presenting them. Built with Google ADK + MCP. |
+| [`second-look-triage`](https://github.com/KapaSique/second-look-triage) | Clinically grounded ER triage safety net with calibration, red-flag NLP, and fairness auditing. |
+| [`PaperCV`](https://github.com/KapaSique/PaperCV) | Real-time attention and gaze monitoring with MediaPipe, OpenCV, FastAPI, and React. |
+| [`yakutsk-city`](https://github.com/KapaSique/yakutsk-city) | Production website for the Yakutsk city IT department, built with Next.js and React. |
 
+## 03 / toolchain
 
-### // currently
+```text
+ML / CV       Python  PyTorch  scikit-learn  LightGBM  XGBoost  OpenCV
+PRODUCT       TypeScript  React  Next.js  React Native  Node.js  FastAPI
+SYSTEMS       Go  Docker  Vercel  Linux  GitHub Actions
+AGENTIC       Claude Code  Codex  MCP  Google ADK  DeepSeek API
+```
 
-- 🇨🇳 Studying Mandarin (HSK path) + prepping IELTS/TOEFL for grad applications.
-- 🔭 Building ML/CV side projects and sharpening the agent-driven workflow.
-- 🏃 Off-screen: running toward a half-marathon, lifting, and a soft spot for Mercedes.
+Tools change. The job stays the same: choose the right abstraction, find the
+failure modes, and get the thing across the finish line.
 
-### // reach
+## 04 / current coordinates
 
-<p>
-  <img src="https://img.shields.io/badge/GitHub-KapaSique-181717?style=flat-square&logo=github&logoColor=white">
-</p>
+```text
+[ learning ]  Mandarin + preparation for graduate admissions
+[ building ]  ML/CV experiments, AI tools, and full-stack products
+[ refining ]  agent orchestration without surrendering engineering judgment
+[ offline  ]  running toward a half-marathon / lifting / Mercedes enthusiast
+```
 
-<p align="center"><sub>Ship real systems. Stay honest about how. 深圳, here I come.</sub></p>
+## 05 / open channel
+
+If you're working on an ML system, computer-vision product, or a serious
+agent-driven workflow, take a look through the repositories or reach me here on
+[GitHub](https://github.com/KapaSique).
+
+<div align="center">
+
+```text
+BUILD REAL SYSTEMS :: KEEP RECEIPTS :: STAY CURIOUS
+```
+
+</div>
