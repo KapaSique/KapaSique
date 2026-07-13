@@ -1,0 +1,61 @@
+name: Daily pulse
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Seven attempts are spread across the Yakutsk day. The job stops after
+    # five successful commits, leaving two retries for delayed/dropped runs.
+    - cron: "17 0 * * *"  # 09:17 YAKT
+    - cron: "37 2 * * *"  # 11:37 YAKT
+    - cron: "47 4 * * *"  # 13:47 YAKT
+    - cron: "27 6 * * *"  # 15:27 YAKT
+    - cron: "57 8 * * *"  # 17:57 YAKT
+    - cron: "17 11 * * *" # 20:17 YAKT
+    - cron: "37 13 * * *" # 22:37 YAKT
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-pulse
+  cancel-in-progress: false
+
+jobs:
+  commit-pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Record pulse
+        env:
+          OWNER: ${{ github.repository_owner }}
+          OWNER_ID: ${{ github.repository_owner_id }}
+        run: |
+          set -euo pipefail
+
+          git pull --rebase origin main
+
+          today="$(TZ=Asia/Yakutsk date '+%Y-%m-%d')"
+          current_count="$(grep -c "^${today} " pulse/daily.log || true)"
+
+          if [ "$current_count" -ge 5 ]; then
+            echo "Five pulses already recorded for ${today}."
+            exit 0
+          fi
+
+          pulse_number="$((current_count + 1))"
+          stamp="$(TZ=Asia/Yakutsk date '+%Y-%m-%d %H:%M:%S YAKT')"
+          printf '%s :: pulse %s/5 :: system online\n' \
+            "$stamp" "$pulse_number" >> pulse/daily.log
+
+          git config user.name "$OWNER"
+          git config user.email "${OWNER_ID}+${OWNER}@users.noreply.github.com"
+          git add pulse/daily.log
+          git commit -m "chore(pulse): ${today} ${pulse_number}/5"
+          git push origin HEAD:main
