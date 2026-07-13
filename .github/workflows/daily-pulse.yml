@@ -36,6 +36,7 @@ jobs:
         env:
           OWNER: ${{ github.repository_owner }}
           OWNER_ID: ${{ github.repository_owner_id }}
+          TZ: Asia/Yakutsk
         run: |
           set -euo pipefail
 
