@@ -32,23 +32,25 @@ Yakutsk  --->  China  --->  Shenzhen / Guangzhou
   web          ML/CV          research + products
 ```
 
-## 01 / operating system
+## 01 / engineering ownership
 
-I don't measure engineering by how many lines I typed myself. I define the
-architecture, turn ambiguity into a spec, direct AI agents through the heavy
-lifting, and then review the result until I can own every decision.
+I work end to end: turn an ambiguous problem into system boundaries, build the
+critical path, design the evidence that can prove it works, and trace failures
+across data, models, APIs, and runtime behavior. I keep reviewing until I can
+explain the trade-offs, reproduce the result, and operate what ships.
 
 ```text
-idea
-  +--> architecture ---------> me
-  +--> specification --------> me + Codex / GPT
-  +--> implementation -------> Claude Code / agents
-  +--> experiments ----------> Python / notebooks / GPUs
-  +--> review + integration --> me
-  +--> evidence -------------> tests / metrics / production
+FRAME  -> requirements / constraints / failure modes
+DESIGN -> architecture / data contracts / validation
+BUILD  -> critical paths / integrations / interfaces
+PROVE  -> tests / CV / ablations / instrumentation
+DEBUG  -> data / model / API / runtime
+SHIP   -> deploy / monitor / document / own
 ```
 
-Fast is useful. Correct, explainable, and shipped is better.
+AI tools accelerate exploration and implementation. They do not own the
+acceptance decision: I verify the code, the measurements, and the production
+behavior before I put my name on the result.
 
 ## 02 / selected transmissions
 
