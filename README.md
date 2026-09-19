@@ -1,36 +1,9 @@
-<div align="center">
-
-```text
-+------------------------------------------------------------+
-| KAPASIQUE :: ARTEM SVINOBOEV                               |
-| ML / COMPUTER VISION / FULL-STACK / AGENTIC ENGINEERING    |
-+------------------------------------------------------------+
-```
-
 **I turn ambitious ideas into systems that work.**
 
 `architecture first` &nbsp; `/`&nbsp; `agents with supervision` &nbsp; `/`&nbsp; `proof over hype`
 
 </div>
 
----
-
-## 00 / signal
-
-I'm a computer engineering student from Yakutsk, currently studying between
-**NEFU** and **Jiamusi University in China**. My main lane is machine learning and
-computer vision; my unfair advantage is being able to carry the same idea all the
-way from an experiment to a usable product.
-
-I have spent roughly four years building for the web, then moved deeper into ML,
-CV, mobile, and agent-driven development. The long game is graduate study in
-AI / CS in southern China — and a career built around hard technical problems,
-not one narrow framework.
-
-```text
-Yakutsk  --->  China  --->  Shenzhen / Guangzhou
-  web          ML/CV          research + products
-```
 
 ## 01 / engineering ownership
 
