@@ -1,93 +1,163 @@
-<p align="center">
-  <a href="https://xrtem.dev"><img src="https://raw.githubusercontent.com/KapaSique/KapaSique/main/assets/banner.svg" alt="xrtem — Делаю сайты, которые открывают, листают, покупают, показывают, советуют" width="100%"></a>
-</p>
+<div align="center">
 
-**Артём Свинобоев**, на GitHub — Stelmah. Fullstack-разработчик из Якутска. С 2022 года собираю сайты, интернет-магазины и платформы под ключ: от макета до домена, админки и реальных пользователей. Для себя решаю задачи по ML и компьютерному зрению: Kaggle, хакатоны, летние школы.
+<a href="https://xrtem.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.webp">
+    <img src="assets/wordmark-light.webp" alt="xrtem" width="210">
+  </picture>
+</a>
 
-## (01) Работы
+### Артём Свинобоев · fullstack-разработчик из Якутска
 
-<p align="center">
-  <a href="https://saqaomuk.com"><img src="https://raw.githubusercontent.com/KapaSique/KapaSique/main/assets/work-saqaomuk.svg" alt="SAQAOMUK — интернет-магазин бренда одежды, saqaomuk.com" width="100%"></a><br>
-  <a href="https://chaseje.com"><img src="https://raw.githubusercontent.com/KapaSique/KapaSique/main/assets/work-chaseje.svg" alt="Chase.je — имиджевый сайт частного бутика-архива, chaseje.com" width="100%"></a><br>
-  <a href="https://profcosmetic.dev"><img src="https://raw.githubusercontent.com/KapaSique/KapaSique/main/assets/work-profcosmetic.svg" alt="PROFCOSMETIC — аналитика владельца с интеграцией 1С, profcosmetic.dev" width="100%"></a>
-</p>
+С 2022 года собираю сайты и сервисы под ключ —
+от макета до админки, которой владелец пользуется сам.
 
-- **SAQAOMUK**: онлайн-магазин бренда одежды. Коллекции, каталог, оформление заказа и интеграции с учётными системами.
-- **Chase.je**: атмосферный сайт частного бутика-архива. Редкие вещи, доступ по запросу, два языка.
-- **PROFCOSMETIC**: дизайн-концепт и внутренняя система аналитики с интеграцией 1С. Продажи, запасы и качество данных в одном месте. Дашборд закрыт паролем, поэтому публично видна только его форма.
-
-Код самого портфолио открыт: [`xrtem.dev`](https://github.com/KapaSique/xrtem.dev), Next.js 16 и Tailwind 4.
-
-## (02) Соревнования и ML
-
-| Что | Результат |
-| :-- | :-- |
-| [FREUID Challenge 2026](https://github.com/KapaSique/freuid-challenge-2026) (IJCAI-ECAI) | **4-е место из 63.** Детекция подделки ID-документов, которая обобщается на незнакомые типы документов и атаки с пересъёмкой. Данные под NDA, в репозитории код и метрики. |
-| [Kaggle S6E6, Stellar Class](https://github.com/KapaSique/stellar-class-prediction-s6e6) | GBDT-ансамбль, RealMLP и свой LR-стекер. Balanced accuracy **0.9711**, топ ~8%. |
-| [Kaggle S6E5, F1 Pit Stop](https://github.com/KapaSique/f1-pitstop-prediction-s6e5) | Бленд GBDT и RealMLP с OOF-валидацией. Private AUC **0.9545**, топ ~7%. |
-| [Kaggle S6E7](https://github.com/KapaSique/playground-series-s6e7) | Публичный скор 0.95114, 144-е место из 2286. Воспроизводимая кампания: журнал экспериментов и таймстемпы лидерборда. |
-| [Maze Crawler](https://github.com/KapaSique/maze-crawler) | Симуляционный агент, ELO 1057: 53-е место из 459, топ ~12%. |
-| [SMILES-2026](https://github.com/KapaSique/SMILES-2026) | ResNet18 на CIFAR-100 без вычисления градиентов: **49.68%** top-1. |
-
-## (03) Открытые инструменты
-
-- [`kaggle-dominator`](https://github.com/KapaSique/kaggle-dominator): навык для Claude Code. Честная валидация, защита лучшего решения, бюджеты ресурсов, выбор по Парето и безопасные сабмиты.
-- [`paper-scout`](https://github.com/KapaSique/paper-scout): ежедневный дайджест новых статей arXiv, оценённых под исследовательский профиль.
-- [`paper-maestro`](https://github.com/KapaSique/paper-maestro): оркестратор для написания научных статей по ГОСТ и ВАК.
-- [`trustlens`](https://github.com/KapaSique/trustlens): мультиагентный BI на ADK и MCP. Проверяет каждое число, прежде чем его показать.
-- [`second-look-triage`](https://github.com/KapaSique/second-look-triage): страховочная сеть для триажа приёмного покоя. Калиброванный ESI, NLP красных флагов, аудит справедливости.
-- [`PaperCV`](https://github.com/KapaSique/PaperCV): монитор внимания и взгляда по веб-камере. MediaPipe, OpenCV, FastAPI и React.
-- [`checkers-solver`](https://github.com/KapaSique/checkers-solver): решатель русских шашек. Движок на Go с alpha-beta и интерфейс на React.
-
-## (04) Как работаю
-
-Беру размытую задачу и довожу её до работающей системы: границы, критический путь, доказательства, что всё работает, деплой и сопровождение.
-
-```text
-рамка  →  дизайн  →  сборка  →  доказательства  →  отладка  →  релиз
-```
-
-ИИ-инструменты ускоряют поиск и реализацию. Приёмку решаю я: проверяю код, измерения и поведение в продакшене, прежде чем подписаться под результатом.
-
-```text
-Веб       TypeScript  React  Next.js  Tailwind  Node.js  FastAPI  PostgreSQL
-ML / CV   Python  PyTorch  scikit-learn  LightGBM  XGBoost  CatBoost  OpenCV  MediaPipe
-Системы   Go  Docker  Vercel  Linux  GitHub Actions
-Агенты    Claude Code  Codex  MCP  Google ADK
-```
-
-Вне кода: китайский, подготовка к магистратуре, бег к полумарафону, зал, Mercedes.
-
-<p align="center">
-  <a href="https://xrtem.dev"><img src="https://raw.githubusercontent.com/KapaSique/KapaSique/main/assets/footer.svg" alt="Есть проект? Поговорим. xrtem.dev" width="100%"></a>
-</p>
-
-<p align="center">
-  <a href="https://xrtem.dev">xrtem.dev</a> · <a href="https://t.me/stelmahhh">Telegram</a> · <a href="mailto:batteryofsprunk@gmail.com">batteryofsprunk@gmail.com</a>
-</p>
-
-<details>
-<summary>English</summary>
+**[xrtem.dev](https://xrtem.dev)** &nbsp;·&nbsp; [Telegram](https://t.me/stelmahhh) &nbsp;·&nbsp; [batteryofsprunk@gmail.com](mailto:batteryofsprunk@gmail.com)
 
 <br>
 
-**Artem Svinoboev**, Stelmah on GitHub. A full-stack developer from Yakutsk. Since 2022 I have been building sites, online stores and platforms end to end: from the first layout to a domain, an admin panel and real users. On the side I work on ML and computer-vision problems: Kaggle, hackathons, summer schools.
+<a href="https://xrtem.dev/work/saqaomuk">
+  <img src="assets/hero.webp" alt="Запись прокрутки сайта saqaomuk.com" width="100%">
+</a>
 
-**Work.** [SAQAOMUK](https://saqaomuk.com) is an online store for a clothing brand: collections, catalogue, checkout and integrations with its back-office systems. [Chase.je](https://chaseje.com) is an atmospheric bilingual site for a private archive boutique. PROFCOSMETIC is a design concept and an internal analytics system with deep 1C integration; the dashboard sits behind a password. The portfolio's own code is open: [`xrtem.dev`](https://github.com/KapaSique/xrtem.dev).
+**SAQAOMUK** — интернет-магазин модного бренда: коллекции, каталог, оформление заказа,
+админка для команды и обмен данными с учётными системами.
 
-**Competitions and ML.**
+<sub><code>React</code> <code>Vite</code> &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; в продакшене</sub>
 
-- [FREUID Challenge 2026](https://github.com/KapaSique/freuid-challenge-2026) (IJCAI-ECAI): **4th of 63**. ID-document fraud detection that generalizes to unseen document types and recaptured attacks.
-- [Kaggle S6E6](https://github.com/KapaSique/stellar-class-prediction-s6e6): balanced accuracy **0.9711**, top ~8%.
-- [Kaggle S6E5](https://github.com/KapaSique/f1-pitstop-prediction-s6e5): private AUC **0.9545**, top ~7%.
-- [Kaggle S6E7](https://github.com/KapaSique/playground-series-s6e7): public score 0.95114, rank 144 of 2286.
-- [Maze Crawler](https://github.com/KapaSique/maze-crawler): ELO 1057, #53 of 459.
-- [SMILES-2026](https://github.com/KapaSique/SMILES-2026): ResNet18 on CIFAR-100 with no gradient computation, **49.68%** top-1.
+[Кейс](https://xrtem.dev/work/saqaomuk) &nbsp;·&nbsp; [saqaomuk.com](https://saqaomuk.com)
 
-**Open tools.** [`kaggle-dominator`](https://github.com/KapaSique/kaggle-dominator) (a Claude Code skill for evidence-driven Kaggle work), [`paper-scout`](https://github.com/KapaSique/paper-scout), [`paper-maestro`](https://github.com/KapaSique/paper-maestro), [`trustlens`](https://github.com/KapaSique/trustlens), [`second-look-triage`](https://github.com/KapaSique/second-look-triage), [`PaperCV`](https://github.com/KapaSique/PaperCV), [`checkers-solver`](https://github.com/KapaSique/checkers-solver).
+</div>
 
-**How I work.** I take an ambiguous problem to a working system: boundaries, critical path, evidence that it works, deploy and ownership. AI tools speed up exploration and implementation; the acceptance decision stays with me, and I verify the code, the measurements and the production behaviour before I put my name on the result.
+<br>
 
-Got a project? [xrtem.dev](https://xrtem.dev) · [Telegram](https://t.me/stelmahhh) · [batteryofsprunk@gmail.com](mailto:batteryofsprunk@gmail.com)
+## Проекты
+
+Работающие продукты и их настоящие экраны. Каждый разобран на [xrtem.dev](https://xrtem.dev/#work).
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://xrtem.dev/work/serbeke"><img src="assets/work-serbeke.webp" alt="Сэрбэкэ: главная на десктопе и на телефоне" width="100%"></a>
+      <h3>Сэрбэкэ</h3>
+      <sub>Меховой салон · сайт и запись на примерку</sub>
+      <p>Коллекция и запись, при которой салон откладывает выбранный размер до визита. Онлайн-продаж нет: покупка происходит в салоне.</p>
+      <sub><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Tailwind</code></sub>
+      <p><a href="https://xrtem.dev/work/serbeke">Кейс</a> &nbsp;·&nbsp; <a href="https://serbeke.vercel.app">serbeke.com</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://xrtem.dev/work/profcosmetic"><img src="assets/work-profcosmetic.webp" alt="Профкосметик: главная на десктопе и на телефоне" width="100%"></a>
+      <h3>Профкосметик</h3>
+      <sub>Интернет-магазин · профессиональная косметика</sub>
+      <p>Каталог из более чем 10 тысяч товаров восьмидесяти брендов, поиск, корзина, заказы и цены по договору для салонов и мастеров.</p>
+      <sub><code>Next.js</code> <code>React</code></sub>
+      <p><a href="https://xrtem.dev/work/profcosmetic">Кейс</a> &nbsp;·&nbsp; <a href="https://profcosmetic-ykt.ru">profcosmetic-ykt.ru</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://xrtem.dev/work/chinatradeco"><img src="assets/work-chinatradeco.webp" alt="ChinaTradeCo: главная с калькулятором заказа" width="100%"></a>
+      <h3>ChinaTradeCo</h3>
+      <sub>Байер-сервис · товары из Китая</sub>
+      <p>Выкуп с Taobao, 1688, Pinduoduo и Poizon с доставкой в Якутск: калькулятор считает заказ по ссылке, статусы приходят в Telegram Mini App, менеджеры работают в админке.</p>
+      <sub><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Telegram Mini App</code> <code>Django</code> <code>PostgreSQL</code></sub>
+      <p><a href="https://xrtem.dev/work/chinatradeco">Кейс</a> &nbsp;·&nbsp; <a href="https://chinatradeco.app">chinatradeco.app</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://xrtem.dev/work/studmarket"><img src="assets/work-studmarket.webp" alt="СтудМаркет: статус заказа, каталог и тёмная тема в Mini App" width="100%"></a>
+      <h3>СтудМаркет</h3>
+      <sub>Telegram Mini App · сервис доставки</sub>
+      <p>Магазин напитков и снеков с доставкой к вахте общежития СВФУ: Mini App для заказов, бот для курьеров и админка. Около 100 заказов в день.</p>
+      <sub><code>Python</code> <code>FastAPI</code> <code>aiogram</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code></sub>
+      <p><a href="https://xrtem.dev/work/studmarket">Кейс</a> &nbsp;·&nbsp; <a href="https://t.me/StudMarketNEFU_Bot">@StudMarketNEFU_Bot</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://xrtem.dev/work/dpo-imi"><img src="assets/work-dpo-imi.webp" alt="ДПО ИМИ: главная на десктопе и на телефоне" width="100%"></a>
+      <h3>ДПО ИМИ</h3>
+      <sub>Веб-приложение · дополнительное образование</sub>
+      <p>Сайт и кабинет учебного центра ИМИ СВФУ: каталог программ, заявление с документами и оплатой, кабинеты администратора и преподавателей.</p>
+      <sub><code>Svelte</code> <code>SvelteKit</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Celery</code></sub>
+      <p><a href="https://xrtem.dev/work/dpo-imi">Кейс</a> &nbsp;·&nbsp; на тестовом стенде вуза</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://xrtem.dev/work/chaseje"><img src="assets/work-chaseje.webp" alt="Chase.je: главная на десктопе и на телефоне" width="100%"></a>
+      <h3>Chase.je</h3>
+      <sub>Частный бутик · имиджевый сайт</sub>
+      <p>Атмосферный сайт бутика-архива на двух языках: редкие вещи, доступ по запросу и сдержанная подача.</p>
+      <sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code></sub>
+      <p><a href="https://xrtem.dev/work/chaseje">Кейс</a> &nbsp;·&nbsp; <a href="https://chaseje.com">chaseje.com</a></p>
+    </td>
+  </tr>
+</table>
+
+## Хакатоны
+
+В команде beercut на хакатонах я делал мобильные приложения на Expo и React Native. Экраны сняты в симуляторе iPhone на демо-данных.
+
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://xrtem.dev/#hackathons"><img src="assets/hack-sweet-bridge.webp" alt="Сладкий мост: главная с плашкой волны" width="82%"></a>
+      <h3>Сладкий мост</h3>
+      <sub>Peak IT 2026</sub>
+      <p align="left">Маркетплейс сладостей между Якутском и Донецком. Заказы едут сборными «волнами», и тариф доставки падает по мере заполнения волны.</p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://xrtem.dev/#hackathons"><img src="assets/hack-sahatyja.webp" alt="СахаТыа: лента наблюдений" width="82%"></a>
+      <h3>СахаТыа</h3>
+      <sub>ГИС-IT 2026</sub>
+      <p align="left">Дневник сезонных наблюдений в Якутии: лента, каталог из 28 видов, карта и очередь, которая синхронизируется, когда появляется связь.</p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://xrtem.dev/#hackathons"><img src="assets/hack-oculus.webp" alt="Oculus-Feldsher: список пациентов" width="82%"></a>
+      <h3>Oculus-Feldsher</h3>
+      <sub>Февраль 2026 · <a href="https://github.com/beercut-team-old/mobile">код</a></sub>
+      <p align="left">Подготовка офтальмологических пациентов к операции: роли, чек-листы анализов, карточка с PDF и калькулятор ИОЛ.</p>
+    </td>
+  </tr>
+</table>
+
+## Что я делаю
+
+<table>
+  <tr><td><b>Сайты и лендинги</b></td><td>Для компаний, брендов и запусков. Анимации, CMS, SEO и скорость из коробки.</td></tr>
+  <tr><td><b>Интернет-магазины</b></td><td>Каталог, корзина, оплата и админка, которой владелец правда пользуется.</td></tr>
+  <tr><td><b>Платформы и кабинеты</b></td><td>Роли, мультитенантность, отчёты. FastAPI, PostgreSQL, Next.js.</td></tr>
+  <tr><td><b>Telegram-боты и Mini Apps</b></td><td>Лояльность, запись, рассылки — связанные с вашим сайтом и CRM.</td></tr>
+  <tr><td><b>Интеграции</b></td><td>1С, CRM, эквайринг, аналитика. Данные ходят сами, без ручной выгрузки.</td></tr>
+</table>
+
+Беру на себя макет, фронтенд, бэкенд, интеграции и запуск. Якутск, UTC+9. Русский, English.
+
+## Контакты
+
+Есть проект — напишите: [Telegram](https://t.me/stelmahhh), [batteryofsprunk@gmail.com](mailto:batteryofsprunk@gmail.com) или через [xrtem.dev](https://xrtem.dev/#contact).
+
+<br>
+
+<details>
+<summary><b>English</b></summary>
+
+<br>
+
+**Artem Svinoboev, a full-stack developer from Yakutsk.** Since 2022 I've been building sites and services end to end — from the first layout to an admin panel the owner actually uses.
+
+**Projects** — each one has a case page on [xrtem.dev](https://xrtem.dev/#work).
+
+- **[SAQAOMUK](https://xrtem.dev/work/saqaomuk)** — the online store of a fashion brand: collections, catalogue, checkout, an admin panel and data exchange with the brand's back-office systems. [saqaomuk.com](https://saqaomuk.com)
+- **[Сэрбэкэ](https://xrtem.dev/work/serbeke)** — a site for a fur salon in Yakutsk: the collection, and a booking that holds the chosen size until the visit. [serbeke.com](https://serbeke.vercel.app)
+- **[Профкосметик](https://xrtem.dev/work/profcosmetic)** — an online store of professional cosmetics: over ten thousand items from eighty brands, search, a cart, orders, and prices by contract for salons and masters. [profcosmetic-ykt.ru](https://profcosmetic-ykt.ru)
+- **[ChinaTradeCo](https://xrtem.dev/work/chinatradeco)** — a service that buys goods on Taobao, 1688, Pinduoduo and Poizon and brings them to Yakutsk: a calculator that counts an order from a link, a Telegram Mini App with order statuses, and an admin for the managers. [chinatradeco.app](https://chinatradeco.app)
+- **[СтудМаркет](https://xrtem.dev/work/studmarket)** — a drinks and snacks shop that delivers to the dorm lobby at NEFU: a Mini App for orders, a bot for couriers and an admin panel. About 100 orders a day. [@StudMarketNEFU_Bot](https://t.me/StudMarketNEFU_Bot)
+- **[ДПО ИМИ](https://xrtem.dev/work/dpo-imi)** — a site and a cabinet for the continuing-education centre of the Institute of Mathematics and Informatics at NEFU: a programme catalogue, an application with documents and payment, and offices for the administrator and teachers. On the university's test stand.
+- **[Chase.je](https://xrtem.dev/work/chaseje)** — an atmospheric site for a private archive boutique, in two languages: rare pieces, access by request and a deliberately restrained presentation. [chaseje.com](https://chaseje.com)
+
+**Hackathons** — with the beercut team I built the mobile apps, in Expo and React Native: Сладкий мост (Peak IT 2026), a marketplace for sweets between Yakutsk and Donetsk; СахаТыа (GIS-IT 2026), a diary of seasonal observations in Yakutia; [Oculus-Feldsher](https://github.com/beercut-team-old/mobile), a system that prepares eye patients for surgery.
+
+**What I do** — websites and landing pages, online stores, platforms and dashboards, Telegram bots and Mini Apps, integrations with 1C, CRM and acquiring.
+
+**Contact** — [Telegram](https://t.me/stelmahhh), [batteryofsprunk@gmail.com](mailto:batteryofsprunk@gmail.com), [xrtem.dev](https://xrtem.dev).
 
 </details>
