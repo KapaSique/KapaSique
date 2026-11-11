@@ -1,139 +1,39 @@
-<div align="center">
+<a href="https://xrtem.dev"><img src="assets/banner.webp" alt="xrtem — Артём Свинобоев, fullstack-разработчик из Якутска" width="100%"></a>
 
-<a href="https://xrtem.dev">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.webp">
-    <img src="assets/wordmark-light.webp" alt="xrtem" width="210">
-  </picture>
-</a>
+<p align="center">
+  С 2022 года собираю сайты и сервисы под ключ — от макета до админки, которой владелец пользуется сам.
+</p>
 
-### Артём Свинобоев · fullstack-разработчик из Якутска
-
-С 2022 года собираю сайты и сервисы под ключ —
-от макета до админки, которой владелец пользуется сам.
-
-**[xrtem.dev](https://xrtem.dev)** &nbsp;·&nbsp; [Telegram](https://t.me/stelmahhh) &nbsp;·&nbsp; [batteryofsprunk@gmail.com](mailto:batteryofsprunk@gmail.com)
+<p align="center">
+  <b><a href="https://xrtem.dev">xrtem.dev</a></b> &nbsp;·&nbsp; <a href="https://t.me/stelmahhh">Telegram</a> &nbsp;·&nbsp; <a href="mailto:batteryofsprunk@gmail.com">batteryofsprunk@gmail.com</a>
+</p>
 
 <br>
 
-<a href="https://xrtem.dev/work/saqaomuk">
-  <img src="assets/hero.webp" alt="Запись прокрутки сайта saqaomuk.com" width="100%">
-</a>
+### Проекты
 
-**SAQAOMUK** — интернет-магазин модного бренда: коллекции, каталог, оформление заказа,
-админка для команды и обмен данными с учётными системами.
+<a href="https://xrtem.dev/work/saqaomuk"><img src="assets/hero.webp" alt="SAQAOMUK — интернет-магазин модного бренда, запись прокрутки saqaomuk.com" width="100%"></a>
+<a href="https://xrtem.dev/work/serbeke"><img src="assets/work-serbeke.webp" alt="Сэрбэкэ — сайт мехового салона с записью на примерку" width="49.8%"></a><a href="https://xrtem.dev/work/profcosmetic"><img src="assets/work-profcosmetic.webp" alt="Профкосметик — интернет-магазин профессиональной косметики" width="49.8%"></a>
+<a href="https://xrtem.dev/work/chinatradeco"><img src="assets/work-chinatradeco.webp" alt="ChinaTradeCo — байер-сервис: товары из Китая с доставкой в Якутск" width="49.8%"></a><a href="https://xrtem.dev/work/studmarket"><img src="assets/work-studmarket.webp" alt="СтудМаркет — Telegram Mini App сервиса доставки" width="49.8%"></a>
+<a href="https://xrtem.dev/work/dpo-imi"><img src="assets/work-dpo-imi.webp" alt="ДПО ИМИ — веб-приложение центра дополнительного образования" width="49.8%"></a><a href="https://xrtem.dev/work/chaseje"><img src="assets/work-chaseje.webp" alt="Chase.je — имиджевый сайт частного бутика" width="49.8%"></a>
 
-<sub><code>React</code> <code>Vite</code> &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; в продакшене</sub>
-
-[Кейс](https://xrtem.dev/work/saqaomuk) &nbsp;·&nbsp; [saqaomuk.com](https://saqaomuk.com)
-
-</div>
+<sub>Карточка ведёт на разбор проекта. Живые сайты: <a href="https://saqaomuk.com">saqaomuk.com</a> · <a href="https://serbeke.vercel.app">serbeke.com</a> · <a href="https://profcosmetic-ykt.ru">profcosmetic-ykt.ru</a> · <a href="https://chinatradeco.app">chinatradeco.app</a> · <a href="https://t.me/StudMarketNEFU_Bot">@StudMarketNEFU_Bot</a> · <a href="https://chaseje.com">chaseje.com</a></sub>
 
 <br>
 
-## Проекты
+### Хакатоны
 
-Работающие продукты и их настоящие экраны. Каждый разобран на [xrtem.dev](https://xrtem.dev/#work).
+<a href="https://xrtem.dev/#hackathons"><img src="assets/hack-sweet-bridge.webp" alt="Сладкий мост — маркетплейс сладостей, Peak IT 2026" width="33.2%"></a><a href="https://xrtem.dev/#hackathons"><img src="assets/hack-sahatyja.webp" alt="СахаТыа — дневник сезонных наблюдений, ГИС-IT 2026" width="33.2%"></a><a href="https://github.com/beercut-team-old/mobile"><img src="assets/hack-oculus.webp" alt="Oculus-Feldsher — подготовка пациентов к операции" width="33.2%"></a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://xrtem.dev/work/serbeke"><img src="assets/work-serbeke.webp" alt="Сэрбэкэ: главная на десктопе и на телефоне" width="100%"></a>
-      <h3>Сэрбэкэ</h3>
-      <sub>Меховой салон · сайт и запись на примерку</sub>
-      <p>Коллекция и запись, при которой салон откладывает выбранный размер до визита. Онлайн-продаж нет: покупка происходит в салоне.</p>
-      <sub><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Tailwind</code></sub>
-      <p><a href="https://xrtem.dev/work/serbeke">Кейс</a> &nbsp;·&nbsp; <a href="https://serbeke.vercel.app">serbeke.com</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://xrtem.dev/work/profcosmetic"><img src="assets/work-profcosmetic.webp" alt="Профкосметик: главная на десктопе и на телефоне" width="100%"></a>
-      <h3>Профкосметик</h3>
-      <sub>Интернет-магазин · профессиональная косметика</sub>
-      <p>Каталог из более чем 10 тысяч товаров восьмидесяти брендов, поиск, корзина, заказы и цены по договору для салонов и мастеров.</p>
-      <sub><code>Next.js</code> <code>React</code></sub>
-      <p><a href="https://xrtem.dev/work/profcosmetic">Кейс</a> &nbsp;·&nbsp; <a href="https://profcosmetic-ykt.ru">profcosmetic-ykt.ru</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://xrtem.dev/work/chinatradeco"><img src="assets/work-chinatradeco.webp" alt="ChinaTradeCo: главная с калькулятором заказа" width="100%"></a>
-      <h3>ChinaTradeCo</h3>
-      <sub>Байер-сервис · товары из Китая</sub>
-      <p>Выкуп с Taobao, 1688, Pinduoduo и Poizon с доставкой в Якутск: калькулятор считает заказ по ссылке, статусы приходят в Telegram Mini App, менеджеры работают в админке.</p>
-      <sub><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Telegram Mini App</code> <code>Django</code> <code>PostgreSQL</code></sub>
-      <p><a href="https://xrtem.dev/work/chinatradeco">Кейс</a> &nbsp;·&nbsp; <a href="https://chinatradeco.app">chinatradeco.app</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://xrtem.dev/work/studmarket"><img src="assets/work-studmarket.webp" alt="СтудМаркет: статус заказа, каталог и тёмная тема в Mini App" width="100%"></a>
-      <h3>СтудМаркет</h3>
-      <sub>Telegram Mini App · сервис доставки</sub>
-      <p>Магазин напитков и снеков с доставкой к вахте общежития СВФУ: Mini App для заказов, бот для курьеров и админка. Около 100 заказов в день.</p>
-      <sub><code>Python</code> <code>FastAPI</code> <code>aiogram</code> <code>PostgreSQL</code> <code>React</code> <code>TypeScript</code></sub>
-      <p><a href="https://xrtem.dev/work/studmarket">Кейс</a> &nbsp;·&nbsp; <a href="https://t.me/StudMarketNEFU_Bot">@StudMarketNEFU_Bot</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://xrtem.dev/work/dpo-imi"><img src="assets/work-dpo-imi.webp" alt="ДПО ИМИ: главная на десктопе и на телефоне" width="100%"></a>
-      <h3>ДПО ИМИ</h3>
-      <sub>Веб-приложение · дополнительное образование</sub>
-      <p>Сайт и кабинет учебного центра ИМИ СВФУ: каталог программ, заявление с документами и оплатой, кабинеты администратора и преподавателей.</p>
-      <sub><code>Svelte</code> <code>SvelteKit</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Celery</code></sub>
-      <p><a href="https://xrtem.dev/work/dpo-imi">Кейс</a> &nbsp;·&nbsp; на тестовом стенде вуза</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://xrtem.dev/work/chaseje"><img src="assets/work-chaseje.webp" alt="Chase.je: главная на десктопе и на телефоне" width="100%"></a>
-      <h3>Chase.je</h3>
-      <sub>Частный бутик · имиджевый сайт</sub>
-      <p>Атмосферный сайт бутика-архива на двух языках: редкие вещи, доступ по запросу и сдержанная подача.</p>
-      <sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code></sub>
-      <p><a href="https://xrtem.dev/work/chaseje">Кейс</a> &nbsp;·&nbsp; <a href="https://chaseje.com">chaseje.com</a></p>
-    </td>
-  </tr>
-</table>
+<sub>Мобильные приложения на Expo и React Native, сделанные в команде beercut.</sub>
 
-## Хакатоны
+<br>
 
-В команде beercut на хакатонах я делал мобильные приложения на Expo и React Native. Экраны сняты в симуляторе iPhone на демо-данных.
+### Что я делаю
 
-<table>
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <a href="https://xrtem.dev/#hackathons"><img src="assets/hack-sweet-bridge.webp" alt="Сладкий мост: главная с плашкой волны" width="82%"></a>
-      <h3>Сладкий мост</h3>
-      <sub>Peak IT 2026</sub>
-      <p align="left">Маркетплейс сладостей между Якутском и Донецком. Заказы едут сборными «волнами», и тариф доставки падает по мере заполнения волны.</p>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <a href="https://xrtem.dev/#hackathons"><img src="assets/hack-sahatyja.webp" alt="СахаТыа: лента наблюдений" width="82%"></a>
-      <h3>СахаТыа</h3>
-      <sub>ГИС-IT 2026</sub>
-      <p align="left">Дневник сезонных наблюдений в Якутии: лента, каталог из 28 видов, карта и очередь, которая синхронизируется, когда появляется связь.</p>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <a href="https://xrtem.dev/#hackathons"><img src="assets/hack-oculus.webp" alt="Oculus-Feldsher: список пациентов" width="82%"></a>
-      <h3>Oculus-Feldsher</h3>
-      <sub>Февраль 2026 · <a href="https://github.com/beercut-team-old/mobile">код</a></sub>
-      <p align="left">Подготовка офтальмологических пациентов к операции: роли, чек-листы анализов, карточка с PDF и калькулятор ИОЛ.</p>
-    </td>
-  </tr>
-</table>
+Сайты и лендинги · интернет-магазины · платформы и кабинеты · Telegram-боты и Mini Apps · интеграции с 1С, CRM и эквайрингом. Беру на себя макет, фронтенд, бэкенд и запуск. Якутск, UTC+9.
 
-## Что я делаю
-
-<table>
-  <tr><td><b>Сайты и лендинги</b></td><td>Для компаний, брендов и запусков. Анимации, CMS, SEO и скорость из коробки.</td></tr>
-  <tr><td><b>Интернет-магазины</b></td><td>Каталог, корзина, оплата и админка, которой владелец правда пользуется.</td></tr>
-  <tr><td><b>Платформы и кабинеты</b></td><td>Роли, мультитенантность, отчёты. FastAPI, PostgreSQL, Next.js.</td></tr>
-  <tr><td><b>Telegram-боты и Mini Apps</b></td><td>Лояльность, запись, рассылки — связанные с вашим сайтом и CRM.</td></tr>
-  <tr><td><b>Интеграции</b></td><td>1С, CRM, эквайринг, аналитика. Данные ходят сами, без ручной выгрузки.</td></tr>
-</table>
-
-Беру на себя макет, фронтенд, бэкенд, интеграции и запуск. Якутск, UTC+9. Русский, English.
-
-## Контакты
-
-Есть проект — напишите: [Telegram](https://t.me/stelmahhh), [batteryofsprunk@gmail.com](mailto:batteryofsprunk@gmail.com) или через [xrtem.dev](https://xrtem.dev/#contact).
+Есть проект — напишите в <a href="https://t.me/stelmahhh">Telegram</a> или на <a href="mailto:batteryofsprunk@gmail.com">batteryofsprunk@gmail.com</a>.
 
 <br>
 
